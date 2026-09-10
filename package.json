@@ -1,0 +1,16 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "CI/CD 演示项目：Docker 容器化部署",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src test build.js",
+    "test": "node --test",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0"
+  }
+}
