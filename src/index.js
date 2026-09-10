@@ -22,7 +22,7 @@ if (typeof document !== 'undefined' && document.getElementById('app')) {
   const app = document.getElementById('app');
   const version = document.createElement('p');
   version.className = 'version';
-  version.textContent = '版本 v3 · 由 GitHub Actions 自动发布';
+  version.textContent = '版本v0.1 由 GitHub Actions 自动发布';
   app.appendChild(version);
 
   const form = document.createElement('div');
